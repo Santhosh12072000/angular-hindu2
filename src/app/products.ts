@@ -11,6 +11,7 @@ export const products = [
     name: 'Magnum',
     price: 199,
     description: 'Magnum is a Belgium brand of icecream.'
+    
   },
   {
     id: 2,

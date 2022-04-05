@@ -25,6 +25,10 @@ export class ProductListComponent {
   review() {
     window.alert('Thanks for Your Review!');
   }
+  onNotify() {
+    window.alert('Notification!');
+  }
+
 }
 
 
