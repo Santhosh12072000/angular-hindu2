@@ -1,0 +1,25 @@
+<h2>Products</h2>
+<div *ngFor="let p of products">
+
+<h4>Available Products:<br>Product {{p.id}}:<a [title]="p.name+'product'">{{p.name}}</a><h5 *ngIf="p.description"> Description:{{p.description}}</h5></h4>
+
+<button type="button" (click)="add()">add</button>
+<button type="button" (click)="remove()">remove</button>
+
+
+</div>
+
+<button mat-button>shopping_cart</button>
+    <button mat-button color="button" (click)="Payment">Payment</button>
+    <button mat-button color="button" (click)="share()">share</button>
+    <button mat-button color="button" (click)="review">review</button>
+    <button mat-button disabled>Disabled</button>
+    <a mat-button href="https://www.google.com/" target="_blank">Link</a>
+
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
