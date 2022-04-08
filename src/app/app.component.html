@@ -8,12 +8,24 @@
 <div class="container">
   <router-outlet></router-outlet>
 </div>
-
-
 <div class="c">
-  
   </div>
-
+  <p>Lets explore this app</p>
+<div class="card-container">
+  <a class="card" routerLink="">
+    <span>Home</span>
+  </a>
+  <a class="card" routerLink="product">
+    <span>product</span>
+  </a>
+  <a class="card" routerLink="product">
+    <span>offer</span>
+  </a>
+  <div class="container-fluid">
+    <router-outlet></router-outlet>
+  </div>
+<app-product></app-product>
+<router-outlet></router-outlet>
   
   
 

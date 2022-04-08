@@ -10,6 +10,10 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { ListingComponent } from './listing/listing.component';
+import { HomeComponent } from './home/home.component';
+import { AddnewComponent } from './addnew/addnew.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   imports: [
@@ -26,7 +30,11 @@ import {MatIconModule} from '@angular/material/icon';
     TopBarComponent,
     ProductListComponent,
     ProductAlertsComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    ListingComponent,
+    HomeComponent,
+    AddnewComponent,
+    ProductComponent
   ],
   bootstrap: [
     AppComponent

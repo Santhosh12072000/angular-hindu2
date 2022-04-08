@@ -1,0 +1,32 @@
+<p>listing works!</p>
+<div>
+    <a class="card" routerLink="create" id="addbtn" >
+        <span>AddNew</span>
+    </a>
+</div>
+<div>
+    <table id="datatable" >
+        <thead>
+            <tr>
+                <th>Mobile Series</th>
+                <th>Brand</th>
+                <th>Price</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor= "let p of productData">
+        
+                
+                <td>{{p.name}}</td>
+                <td>{{p.price}}</td>
+                <td>{{p.quantity}}</td>
+                <td><button>Edit</button> | <button>Delete</button>/td></tr>
+                <!-- <tr>1</tr>
+                <tr>2</tr>
+                <tr>3</tr>
+                <tr>4</tr> -->
+        </tbody>
+
+    </table>
+</div>
